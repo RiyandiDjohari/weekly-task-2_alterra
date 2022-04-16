@@ -1,0 +1,68 @@
+import * as Icons from "react-icons/fa";
+
+export const sidebarItems = [
+  {
+    id: 1,
+    title: "Git",
+    path: "/git",
+    nName: "nav-item",
+    sName: "sidebar-item",
+    icon: <Icons.FaGitAlt className="icon"/>,
+  },
+  {
+    id: 2,
+    title: "UI-UX",
+    path: "/uiux",
+    nName: "nav-item",
+    sName: "sidebar-item",
+    icon: <Icons.FaLaptopCode />,
+  },
+  {
+    id: 3,
+    title: "Figma",
+    path: "/figma",
+    nName: "nav-item",
+    sName: "sidebar-item",
+    icon: <Icons.FaFigma />,
+  },
+  {
+    id: 4,
+    title: "HTML",
+    path: "/html",
+    nName: "nav-item",
+    sName: "sidebar-item",
+    icon: <Icons.FaHtml5 />,
+  },
+  {
+    id: 5,
+    title: "CSS",
+    path: "/css",
+    nName: "nav-item",
+    sName: "sidebar-item",
+    icon: <Icons.FaCss3 />,
+  },
+  {
+    id: 6,
+    title: "Bootstrap",
+    path: "/bootstrap",
+    nName: "nav-item",
+    sName: "sidebar-item",
+    icon: <Icons.FaBootstrap />,
+  },
+  {
+    id: 7,
+    title: "Javascript",
+    path: "/javascript",
+    nName: "nav-item",
+    sName: "sidebar-item",
+    icon: <Icons.FaJs />,
+  },
+  {
+    id: 8,
+    title: "Clean Code",
+    path: "/cleancode",
+    nName: "nav-item",
+    sName: "sidebar-item",
+    icon: <Icons.FaCode />,
+  },
+];

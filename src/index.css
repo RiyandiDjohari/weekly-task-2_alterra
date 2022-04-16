@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./assets/email-pattern.png);
+	font-family: 'Poppins', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.container{
+	display: flex;
+  height: auto;
+  
+}
+
+/* Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin-top: 8rem;
+  margin-left: 20rem;
+  margin-right: auto ;
+  text-align: start;
+  text-align: justify;
+}
+.content .title {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+.content .img-title {
+  width: 300px;
+  margin: 30px;
+  align-self: center;
+}
+.content .img-praktikum {
+  width: 60%;
+  margin: 20px 0;
+}
+.content h2, ul li{
+  margin: 10px 0;
+}
+
+.img-flex img{
+  margin: 10px 10px;
+}
+@media screen and (max-width: 992px) {
+  .img-flex img{
+    width: 450px;
+    height: 300px;
+  }
+  .content{
+    margin-left: 12rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .content{
+    max-width: 60%;
+  }
+  .content .img-title{
+    width: 200px;
+  }
+  .img-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .img-flex img{
+    margin: 10px 0;
+    width: 500px;
+    height: 350px;
+  }
+}
+
